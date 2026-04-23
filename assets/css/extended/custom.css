@@ -1,0 +1,12 @@
+/* Tiny tweaks on top of PaperMod. */
+
+/* A bit more air around the home-info block, like Lilian Weng's site. */
+.home-info .post-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Soften the publications/projects table borders. */
+article table {
+  font-size: 0.95rem;
+}

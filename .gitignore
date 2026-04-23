@@ -1,0 +1,16 @@
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (in case you add Hugo Pipes asset tooling later)
+node_modules/

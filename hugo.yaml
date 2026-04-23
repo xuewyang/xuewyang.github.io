@@ -1,0 +1,150 @@
+baseURL: "https://xuewyang.github.io/"
+title: Xuewen Yang
+pagination:
+  pagerSize: 10
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Xuewen Yang
+  description: "Personal site of Xuewen Yang — machine learning engineer working on LLMs, multimodal learning, and search."
+  keywords: [Blog, Portfolio, LLM, Multimodal, NLP, Machine Learning]
+  author: Xuewen Yang
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "Xuewen Yang"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # Home page: home-info mode (like Lilian Weng)
+  homeInfoParams:
+    Title: "Hi, I'm Xuewen 👋"
+    Content: >
+      I'm a Senior Staff Machine Learning Engineer at **Coupang**, where I lead
+      teams building large language models, multimodal systems, and search
+      experiences that serve millions of users.
+
+      My work focuses on **LLM pretraining and post-training** (instruction
+      tuning, DPO, GRPO), **multimodal learning**, **search and recommendation**,
+      and **ads quality**. I led the end-to-end development of **CoupangGPT** and
+      **CoupangGPT-VL**, as well as **OGPT** at OPPO — company-wide language
+      models adopted across search, catalog, ads, and on-device assistants.
+
+      I hold a Ph.D. from **Stony Brook University** in multimodal learning and
+      NLP. I've reviewed 200+ papers for venues like NeurIPS, ACL, EMNLP, CVPR,
+      and TPAMI, and contribute to open-source projects such as **Axolotl** and
+      **ms-swift**.
+
+      This site is where I share notes, blog posts, publications, and projects.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/xuewyang"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/xuewen-yang-6a886125/"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=pAdxTfgAAAAJ"
+    - name: email
+      url: "mailto:xuewen.michael.yang@gmail.com"
+    - name: rss
+      url: "index.xml"
+
+  analytics:
+    google:
+      SiteVerificationTag: ""
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  editPost:
+    URL: "https://github.com/xuewyang/xuewyang.github.io/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
