@@ -56,22 +56,10 @@ params:
   homeInfoParams:
     Title: "Hi, I'm Xuewen 👋"
     Content: >
-      I'm a Senior Staff Machine Learning Engineer at **Coupang**, where I lead
-      teams building large language models, multimodal systems, and search
-      experiences that serve millions of users.
+      I'm a Senior Staff Research Engineer at **Crusoe AI**, working on large
+      language models, multimodal systems, and large-scale training.
 
-      My work focuses on **LLM pretraining and post-training** (instruction
-      tuning, DPO, GRPO), **multimodal learning**, **search and recommendation**,
-      and **ads quality**. I led the end-to-end development of **CoupangGPT** and
-      **CoupangGPT-VL**, as well as **OGPT** at OPPO — company-wide language
-      models adopted across search, catalog, ads, and on-device assistants.
-
-      I hold a Ph.D. from **Stony Brook University** in multimodal learning and
-      NLP. I've reviewed 200+ papers for venues like NeurIPS, ACL, EMNLP, CVPR,
-      and TPAMI, and contribute to open-source projects such as **Axolotl** and
-      **ms-swift**.
-
-      This site is where I share notes, blog posts, publications, and projects.
+      This site is where I share my notes, blog posts, and publications.
 
   socialIcons:
     - name: github
