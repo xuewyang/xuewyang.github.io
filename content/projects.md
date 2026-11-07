@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 url: "/projects/"
+draft: true
 summary: "Selected projects I've led or worked on."
 ShowReadingTime: false
 ShowWordCount: false

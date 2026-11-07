@@ -119,10 +119,12 @@ menu:
       name: Publications
       url: /publications/
       weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 30
+    # Projects section hidden — re-enable by uncommenting this block
+    # and removing `draft: true` from content/projects.md
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
+    #   weight: 30
     - identifier: search
       name: Search
       url: /search/
