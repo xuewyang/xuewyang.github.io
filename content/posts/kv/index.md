@@ -1,5 +1,5 @@
 ---
-title: "The KV cache, from one attention layer to vLLM"
+title: "KV cache internals: PagedAttention, RadixAttention, speculative decoding"
 date: 2026-11-09
 draft: false
 tags: ["LLM", "inference", "vLLM", "KV cache"]
